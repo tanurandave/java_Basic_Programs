@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Aarray_Iterator {
+	
 	public static void main(String[] args) {
 		ArrayList<String> cars = new ArrayList<String>();
 		cars.add("Volvo");
@@ -15,4 +16,5 @@ public class Aarray_Iterator {
 			System.out.println(it.next());
 		}
 	}
+
 }
